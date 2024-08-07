@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../../Tools/gradle-8.9" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/lesson_11" />
+            <option value="$PROJECT_DIR$/lesson_12" />
+            <option value="$PROJECT_DIR$/lesson_13" />
+            <option value="$PROJECT_DIR$/lesson_14" />
+            <option value="$PROJECT_DIR$/lesson_15" />
+            <option value="$PROJECT_DIR$/lesson_16" />
+            <option value="$PROJECT_DIR$/lesson_17" />
+            <option value="$PROJECT_DIR$/lesson_18" />
+            <option value="$PROJECT_DIR$/lesson_19" />
+            <option value="$PROJECT_DIR$/lesson_20" />
+            <option value="$PROJECT_DIR$/lesson_21" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

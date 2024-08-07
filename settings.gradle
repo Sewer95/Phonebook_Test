@@ -1,0 +1,13 @@
+rootProject.name = 'QA-project'
+
+include 'lesson_11'
+include 'lesson_12'
+include 'lesson_13'
+include 'lesson_14'
+include 'lesson_15'
+include 'lesson_16'
+include 'lesson_17'
+include 'lesson_18'
+include 'lesson_19'
+include 'lesson_20'
+include 'lesson_21'
