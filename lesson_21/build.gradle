@@ -41,3 +41,4 @@ def registerTask(String taskName, String suitePath) {
 registerTask('add_contact', 'src/test/resources/add_contact.xml')
 registerTask('smoky', 'src/test/resources/smoke.xml')
 registerTask('regression', 'src/test/resources/regression.xml')
+registerTask('error', 'src/test/resources/error.xml')

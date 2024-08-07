@@ -37,11 +37,11 @@ public class DataProviders {
     return list.iterator();
   }
   @DataProvider
-  public Iterator<Object[]> addContactFromCsv() throws IOException {
+  public Iterator<Object[]> addContactFromCsv(String fileName) throws IOException {
     // Создаем список для хранения данных для тестов
     List<Object[]> list = new ArrayList<>();
     // Открываем CSV файл для чтения
-    BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/contacts.csv"));
+    BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/" + fileName));
     // Читаем первую строку из файла
     String line = reader.readLine();
     // Обрабатываем каждую строку файла до конца
@@ -64,5 +64,10 @@ public class DataProviders {
     reader.close();
     // Возвращаем итератор для списка объектов
     return list.iterator();
+  }
+
+  @DataProvider(name = "contactValidData")
+  public Iterator<Object[]> getContactValidData() throws IOException {
+    return addContactFromCsv("contacts.csv");
   }
 }

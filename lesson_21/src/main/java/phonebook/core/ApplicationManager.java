@@ -53,9 +53,9 @@ public class ApplicationManager {
 
     wait = new WebDriverWait(driver, Duration.ofMillis(2000));
     driver.get("https://telranedu.web.app/home");
-    driver.manage().window().setPosition(new Point(2500, 0));
-    driver.manage().window().maximize(); // Развернуть браузер на весь экран
-    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2)); // Ожидание локатора
+//    driver.manage().window().setPosition(new Point(2500, 0));
+    driver.manage().window().maximize();
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
     userHelper = new UserHelper(driver, wait);
     homeHelper = new HomeHelper(driver, wait);
     contactHelper = new ContactHelper(driver, wait);

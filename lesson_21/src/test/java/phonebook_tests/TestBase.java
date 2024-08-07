@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeSuite;
 import phonebook.core.ApplicationManager;
 
 import java.lang.reflect.Method;
+import java.util.Arrays;
 
 import static phonebook.core.ApplicationManager.logger;
 
@@ -25,8 +26,12 @@ public class TestBase {
   }
 
   @BeforeMethod
-  public void startTest(Method method) {
+  public void startTest(Method method, Object[] parameters) {
+    if(parameters != null && parameters.length > 0) {
+      logger.info("Test is started: [" + method.getName() +"], with data: " + Arrays.asList(parameters));
+    } else {
     logger.info("Test is started: [" + method.getName() +"]");
+    }
   }
 
   @AfterMethod
