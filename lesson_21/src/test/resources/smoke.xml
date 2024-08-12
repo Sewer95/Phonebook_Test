@@ -8,7 +8,7 @@
                     <exclude name=".*Positive.*"/>
                 </methods>
             </class>
-            <class name="phonebook_tests.LoginTests">
+            <class name="phonebook_tests.demoqa.book_store.LoginTests">
                 <methods>
                     <exclude name=".*Positive.*"/>
                 </methods>

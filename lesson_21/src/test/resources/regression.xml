@@ -6,7 +6,7 @@
             <class name="phonebook_tests.HomePageTests"/>
             <class name="phonebook_tests.AddContactTests"/>
             <class name="phonebook_tests.DeleteContactTest"/>
-            <class name="phonebook_tests.LoginTests">
+            <class name="phonebook_tests.demoqa.book_store.LoginTests">
                 <methods>
                     <include name=".*Positive.*"/>
                 </methods>

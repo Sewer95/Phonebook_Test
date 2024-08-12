@@ -11,7 +11,24 @@ public class HomePage extends BasePage{
     WebElement bookStore;
 
     public SidePage getBookStore() {
-        click(bookStore);
+        //click(bookStore);
+        clickWithJs(bookStore, 0, 500);
+        return new SidePage(driver);
+    }
+
+
+    @FindBy(css = ".top-card:nth-child(3)")
+    WebElement alertsFrameWindows;
+    public SidePage getAlertsFrameWindow() {
+        clickWithJs(alertsFrameWindows, 0, 300);
+        return new SidePage(driver);
+    }
+
+
+    @FindBy(css = ".top-card:nth-child(4)")
+    WebElement widgets;
+    public SidePage getWidgets() {
+        clickWithScroll(widgets, 200);
         return new SidePage(driver);
     }
 }
