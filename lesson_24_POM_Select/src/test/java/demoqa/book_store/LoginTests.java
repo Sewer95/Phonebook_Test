@@ -1,6 +1,6 @@
 package demoqa.book_store;
 
-import demoqa.TestBase;
+import demoqa.core.TestBase;
 import demoqa.pages.HomePage;
 import demoqa.pages.LoginPage;
 import demoqa.pages.SidePage;

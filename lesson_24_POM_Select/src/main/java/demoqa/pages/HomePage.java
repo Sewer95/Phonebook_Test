@@ -31,7 +31,21 @@ public class HomePage extends BasePage {
     @FindBy(css = ".top-card:nth-child(4)")
     WebElement widgets;
     public SidePage getWidgets() {
-        clickWithScroll(widgets, 200);
+        clickWithScroll(widgets, 150);
+        return new SidePage(driver);
+    }
+
+    @FindBy(css = ".top-card:nth-child(5)")
+    WebElement interactions;
+    public SidePage getInteractions() {
+        clickWithScroll(interactions, 150);
+        return new SidePage(driver);
+    }
+
+    @FindBy(css = ".top-card:nth-child(1)")
+    WebElement elements;
+    public SidePage getElements() {
+        clickWithScroll(elements, 150);
         return new SidePage(driver);
     }
 }

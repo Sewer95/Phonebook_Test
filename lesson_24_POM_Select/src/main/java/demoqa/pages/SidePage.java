@@ -58,4 +58,28 @@ public class SidePage extends BasePage {
         clickWithJs(slidertMenu, 0, 300);
         return new WidgetsPage(driver);
     }
+
+
+    @FindBy(xpath = "//span[.='Droppable']")
+    WebElement droppable;
+    public InteractionsPage selectDroppableMenu() {
+        clickWithJs(droppable, 0, 400);
+        return new InteractionsPage(driver);
+    }
+
+
+    @FindBy(xpath = "//span[.='Tool Tips']")
+    WebElement toolTipsMenu;
+    public SliderPage selectToolTipsMenu() {
+        clickWithJs(toolTipsMenu, 0, 400);
+        return new SliderPage(driver);
+    }
+
+
+    @FindBy(xpath = "//span[.='Buttons']")
+    WebElement buttonsMenu;
+    public ButtonsPage selectButtonsMenu() {
+        clickWithScroll(buttonsMenu, 500);
+        return new ButtonsPage(driver);
+    }
 }

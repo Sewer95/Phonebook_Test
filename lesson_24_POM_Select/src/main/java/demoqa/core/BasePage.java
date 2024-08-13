@@ -1,6 +1,7 @@
 package demoqa.core;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -10,7 +11,7 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.time.Duration;
 
-public abstract class BasePage {
+public abstract class   BasePage {
    public WebDriver driver;
    public JavascriptExecutor js;
 
@@ -75,5 +76,21 @@ public abstract class BasePage {
         } catch (AWTException | InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public void moveTo(int x, int y) {
+        new Actions(driver).moveByOffset(x, y).perform();
+    }
+
+    public void pause(long milliseconds) {
+        try {
+            Thread.sleep(milliseconds);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+    }
+    public void hideAds(){
+        js.executeScript("document.getElementById('adplus-anchor').style.display='none';");
+        js.executeScript("document.querySelector('footer').style.display='none';");
     }
 }

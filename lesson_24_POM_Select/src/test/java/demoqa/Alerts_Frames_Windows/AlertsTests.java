@@ -1,6 +1,6 @@
 package demoqa.Alerts_Frames_Windows;
 
-import demoqa.TestBase;
+import demoqa.core.TestBase;
 import demoqa.pages.AlertsPage;
 import demoqa.pages.HomePage;
 import demoqa.pages.SidePage;

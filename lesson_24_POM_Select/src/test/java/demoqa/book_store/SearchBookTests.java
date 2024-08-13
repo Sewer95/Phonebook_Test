@@ -1,6 +1,6 @@
 package demoqa.book_store;
 
-import demoqa.TestBase;
+import demoqa.core.TestBase;
 import demoqa.pages.BookStorePage;
 import demoqa.pages.HomePage;
 import org.testng.annotations.BeforeMethod;

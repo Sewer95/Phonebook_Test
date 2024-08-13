@@ -1,6 +1,6 @@
 package demoqa.widgets;
 
-import demoqa.TestBase;
+import demoqa.core.TestBase;
 import demoqa.pages.HomePage;
 import demoqa.pages.SelectMenuPage;
 import demoqa.pages.SidePage;
