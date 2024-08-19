@@ -24,7 +24,7 @@ public class ButtonsPage extends BasePage {
     @FindBy(id = "doubleClickMessage")
     WebElement doubleClickMessage;
     public ButtonsPage verifyDoubleClickMessage(String text) {
-        assert doubleClickMessage.getText().equals(text);
+        verifyMessage(doubleClickMessage, text);
         return this;
     }
 

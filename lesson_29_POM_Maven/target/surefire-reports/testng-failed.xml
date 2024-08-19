@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [data]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="data(failed)" verbose="0">
+    <parameter name="firstName" value="Beth"/>
+    <parameter name="lastName" value="Gibbons"/>
+    <parameter name="phone" value="1234567890"/>
+    <parameter name="email" value="portishead@gmail.com"/>
+    <classes>
+      <class name="demoqa.forms.PracticeFormPageTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="endTest"/>
+          <include name="precondition"/>
+          <include name="PracticeFormTestWithParameter"/>
+          <include name="PracticeFormTest"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- demoqa.forms.PracticeFormPageTests -->
+    </classes>
+  </test> <!-- data(failed) -->
+</suite> <!-- Failed suite [data] -->

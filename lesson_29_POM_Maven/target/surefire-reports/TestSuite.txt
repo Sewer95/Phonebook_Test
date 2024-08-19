@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 11.336 s <<< FAILURE! - in TestSuite
+precondition(demoqa.forms.PracticeFormPageTests)  Time elapsed: 10.144 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="card mt-4 top-card">...</div> is not clickable at point (445, 564). Other element would receive the click: <div>...</div>
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [99e79e8f8a01fe9e1a1fd53ad4dc33e1, clickElement {id=f.F521CEEBEFAFF53F6CEA714B66917D93.d.41488C4EFB323D19BADCB1DD1C7E8845.e.10}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\sereg\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52723}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52723/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (99e79e8f8a01fe9e1a1fd53ad4dc33e1)] -> css selector: .top-card:nth-child(2)]
+Session ID: 99e79e8f8a01fe9e1a1fd53ad4dc33e1
+	at demoqa.forms.PracticeFormPageTests.precondition(PracticeFormPageTests.java:14)
+
