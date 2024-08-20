@@ -23,7 +23,9 @@
             <option value="$PROJECT_DIR$/lesson_19" />
             <option value="$PROJECT_DIR$/lesson_20" />
             <option value="$PROJECT_DIR$/lesson_21" />
-            <option value="$PROJECT_DIR$/lesson_29_First_Cucumber_Project" />
+            <option value="$PROJECT_DIR$/lesson_29.2_First_Cucumber_Project" />
+            <option value="$PROJECT_DIR$/lesson_30.1_First_Cucumber_Project" />
+            <option value="$PROJECT_DIR$/lesson_30.2_First_Cucumber_Selenide_Project" />
           </set>
         </option>
       </GradleProjectSettings>

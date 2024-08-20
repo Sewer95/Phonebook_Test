@@ -10,7 +10,7 @@
         <module>lesson_21_POM</module>
         <module>lesson_24_POM_Select</module>
         <module>lesson_28_POM_Config_Parameter</module>
-        <module>lesson_29_POM_Maven</module>
+        <module>lesson_29.1_POM_Maven</module>
     </modules>
     <dependencies>
         <dependency>

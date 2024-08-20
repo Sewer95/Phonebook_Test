@@ -1,4 +1,4 @@
-rootProject.name = 'QA-project'
+rootProject.name = '43QA'
 
 include 'lesson_11'
 include 'lesson_12'
@@ -11,5 +11,7 @@ include 'lesson_18'
 include 'lesson_19'
 include 'lesson_20'
 include 'lesson_21'
-include 'lesson_29_First_Cucumber_Project'
+include 'lesson_29.2_First_Cucumber_Project'
+include 'lesson_30.1_First_Cucumber_Project'
+include 'lesson_30.2_First_Cucumber_Selenide_Project'
 
