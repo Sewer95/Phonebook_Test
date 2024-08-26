@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "sconto/stepDefinitions",
-        tags = "@@LoginPositive",
+        tags = "@LoginPositive",
         plugin = {"pretty", "html:target/cucumber-reports"}
 
 )

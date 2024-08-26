@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "ilcarro/stepDefinitions",
-        tags = "@InvalidPassword",
+        tags = "@Login",
         plugin = {"pretty", "html:target/cucumber-reports"}
 
 )

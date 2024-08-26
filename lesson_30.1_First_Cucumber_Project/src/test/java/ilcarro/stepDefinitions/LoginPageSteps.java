@@ -25,7 +25,7 @@ public class LoginPageSteps {
         new LoginPage(driver).clickOnYallaButton();
     }
 
-    @Then("Пользователь проверяет отображение сообщения от успешном логине")
+    @Then("Пользователь проверяет отображение сообщения об успешном логине")
     public void userVerifySuccessLoginMessage() {
         new LoginPage(driver).verifyTextMessage("Logged in success");
     }

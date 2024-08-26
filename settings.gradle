@@ -14,4 +14,5 @@ include 'lesson_21'
 include 'lesson_29.2_First_Cucumber_Project'
 include 'lesson_30.1_First_Cucumber_Project'
 include 'lesson_30.2_First_Cucumber_Selenide_Project'
+include 'lesson_34_PhonebookAPI'
 

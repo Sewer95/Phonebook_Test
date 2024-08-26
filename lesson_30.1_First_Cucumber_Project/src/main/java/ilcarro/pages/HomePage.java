@@ -28,4 +28,11 @@ public class HomePage extends BasePage {
         click(loginLink);
         return new LoginPage(driver);
     }
+
+    @FindBy(xpath = "//a[@ng-reflect-router-link='let-car-work']")
+    WebElement letTheCarWorkLink;
+    public LetTheCarWorkPage clickOnLetTheCarWorkLink() {
+        click(letTheCarWorkLink);
+        return new LetTheCarWorkPage(driver);
+    }
 }
